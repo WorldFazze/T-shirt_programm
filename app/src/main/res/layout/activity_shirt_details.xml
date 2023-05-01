@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        />
+<!--        android:src="@drawable/shirt_example"-->
+
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shirt name"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/FootballShirtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shirt price"/>
+
+    <TextView
+        android:id="@+id/FootballShirtMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shirt material"/>
+
+    <TextView
+        android:id="@+id/FootballShirtSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shirt size"/>
+
+    <TextView
+        android:id="@+id/FootballShirtColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shirt color"/>
+
+</LinearLayout>
